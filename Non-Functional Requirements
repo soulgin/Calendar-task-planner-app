@@ -1,0 +1,5 @@
+Non-Functional Requirements.
+performance: the programs should be able to process 31 days tasks without crashing
+Portability: The code must compile and run on Windows, macOS, and Linux.
+
+
