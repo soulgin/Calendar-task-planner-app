@@ -1,0 +1,5 @@
+ Functional Requirements:
+Add Task: Allow users to add a task to a specified day.
+View Tasks: Display all tasks for a specific day.
+Save Tasks: Save all tasks to a file in CSV format.
+Load Tasks: Load tasks from a CSV file.
