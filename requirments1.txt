@@ -1,0 +1,11 @@
+Ram:
+Minimum: 1 GB
+Recommended: 2 GB to above
+
+Windows:
+Minimum: Windows XP
+Recommended: Windows 7 to above
+
+Processor:
+Minimum: 1 GHz
+Recommended: 2 GHz or more

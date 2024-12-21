@@ -1,0 +1,24 @@
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>View Month</title>
+</head>
+<body>
+    <h1>View Month</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if month %}
+        <h2>Tasks for {{ month.month }}/{{ month.year }}</h2>
+        <ul>
+            {% for task in tasks %}
+                <li>{{ task.day }}: {{ task.description }}</li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'add_task' %}">Add Task</a>
+    {% endif %}
+</body>
+</html>

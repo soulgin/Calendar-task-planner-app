@@ -1,5 +1,4 @@
 Core Features of the Prototype
-For simplicity, assume your project is a task management system for a monthly calendar:
 
 Add a Task: Add a task to a specific day.
 View Tasks: Display all tasks for a specific day.
